@@ -8,3 +8,7 @@ d:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfoInputs.cach
 d:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
 d:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.dll
 d:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.pdb
+D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\nunit.engine.dll
+D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\nunit.engine.api.dll

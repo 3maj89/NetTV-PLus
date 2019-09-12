@@ -6094,11 +6094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\casovi_automatizacije\\VSC\\VSC.csproj",
+      "projectUniqueName": "D:\\casovi_automatizacije\\VSC\\VSC.csproj",
       "projectName": "VSC",
-      "projectPath": "d:\\casovi_automatizacije\\VSC\\VSC.csproj",
+      "projectPath": "D:\\casovi_automatizacije\\VSC\\VSC.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "d:\\casovi_automatizacije\\VSC\\obj\\",
+      "outputPath": "D:\\casovi_automatizacije\\VSC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
