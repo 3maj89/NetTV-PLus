@@ -10,16 +10,18 @@ namespace TestRun
     class Run
     {
         IWebDriver driver;
+       
         [SetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver("D:\\casovi_automatizacije\\VSC");
+            driver = new ChromeDriver("C:\\Users\\nevena.cukucan\\Desktop\\AUTOMATIZACIJA\\novintv-paidco");
         }
         [Test]
         public void test()
         {
-            driver.Url= "https://nunit.org/docs/2.4.2/assertions.html";
-            
+            driver.Url= "https://nettvplus.wm.rs/oec/checkout/app/packages";
+            IWebElement element = driver.FindElement(By.CssSelector(""));
+            element.Click();
 
         }
         [TearDown]

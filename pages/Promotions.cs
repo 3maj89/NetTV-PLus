@@ -8,7 +8,7 @@ using System;
 namespace Promotions{
 
 class VerifyPageTitle{
-
+//String title = driver.Title
 }
 
 class VerifyHighlightedNavigationStep{}
