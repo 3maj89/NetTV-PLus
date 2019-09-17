@@ -1,7 +1,7 @@
 Feature: User can see Promotion details in cart.
-
     In order to be informed what I am shopping for
-    I can see Promotion details in Cart depending on what I select.
+    As a new user
+    I want to see relevant Promotion details in Cart depending on my selection.
 
 #1
     Scenario: BOX za 1 EUR - No Subscription
