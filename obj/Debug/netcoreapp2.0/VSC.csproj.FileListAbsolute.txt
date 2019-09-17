@@ -27,3 +27,4 @@ c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcorea
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.dll
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.pdb
+D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
