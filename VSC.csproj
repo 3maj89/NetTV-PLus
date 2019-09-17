@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-  <GenerateProgramFile>false</GenerateProgramFile>
+    <GenerateProgramFile>false</GenerateProgramFile>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
@@ -11,5 +11,6 @@
     <PackageReference Include="NUnit3TestAdapter" Version="3.15.1"/>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"/>
     <PackageReference Include="SpecFlow" Version="3.0.225"/>
+    <PackageReference Include="Selenium.Locators" Version="2.0.1"/>
   </ItemGroup>
 </Project>
