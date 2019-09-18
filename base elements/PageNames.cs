@@ -9,7 +9,6 @@ using System;
 
 /*public abstract class PageNames {
 
-    public static final String Packages_PageName = "Brze vesti admin  | Categories ";
-    public static final String Devices_PageName = "Brze vesti admin | Regions ";
-}
+    public static final String Promotions_PageName = "Akcije";
+    
  */

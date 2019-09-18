@@ -651,19 +651,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Selenium.Locators/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.Support": "3.141.0",
-          "Selenium.WebDriver": "3.141.0"
-        },
-        "compile": {
-          "lib/Selenium.Locators.dll": {}
-        },
-        "runtime": {
-          "lib/Selenium.Locators.dll": {}
-        }
-      },
       "Selenium.Support/3.141.0": {
         "type": "package",
         "dependencies": {
@@ -686,6 +673,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/77.0.3865.4000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "SpecFlow/3.0.225": {
@@ -2805,17 +2798,6 @@
         "runtime.native.system.nuspec"
       ]
     },
-    "Selenium.Locators/2.0.1": {
-      "sha512": "P0R7WgkbLWmW5Ylx8+zSzFwuUhRNTffW+gaeEbYJwcyGjwAcXSceu3E93AqUjZquh1LKJHF/YVGd1RcNp1/d4A==",
-      "type": "package",
-      "path": "selenium.locators/2.0.1",
-      "files": [
-        ".signature.p7s",
-        "lib/Selenium.Locators.dll",
-        "selenium.locators.2.0.1.nupkg.sha512",
-        "selenium.locators.nuspec"
-      ]
-    },
     "Selenium.Support/3.141.0": {
       "sha512": "ov2XBE48L1M2bTc8azz5rSpfT45+q6bw9sBc84NObGebFZ/S2SCnV/TSoBy2Zf3vPXij63Nd1VRcwQkyKC4Vyw==",
       "type": "package",
@@ -2850,6 +2832,20 @@
         "lib/netstandard2.0/WebDriver.xml",
         "selenium.webdriver.3.141.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/77.0.3865.4000": {
+      "sha512": "fKkmtzehZh9RmizIA3Lqaha7oknI5XESaKVXv9V/dKlpNDfuJUHPr17NKyXW5FinOPHoLfldnWfM2gemoB3UUw==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/77.0.3865.4000",
+      "files": [
+        ".signature.p7s",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "selenium.webdriver.chromedriver.77.0.3865.4000.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "SpecFlow/3.0.225": {
@@ -6255,12 +6251,13 @@
       "Microsoft.NETCore.App >= 2.0.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.15.1",
-      "Selenium.Locators >= 2.0.1",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
+      "Selenium.WebDriver.ChromeDriver >= 77.0.3865.4000",
       "SpecFlow >= 3.0.225",
       "SpecFlow.NUnit >= 3.0.225",
-      "SpecFlow.Tools.MsBuild.Generation >= 3.0.225"
+      "SpecFlow.Tools.MsBuild.Generation >= 3.0.225",
+      "gherkin >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -6269,6 +6266,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "D:\\casovi_automatizacije\\VSC\\VSC.csproj",
       "projectName": "VSC",
@@ -6321,10 +6321,6 @@
             "target": "Package",
             "version": "[3.15.1, )"
           },
-          "Selenium.Locators": {
-            "target": "Package",
-            "version": "[2.0.1, )"
-          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[3.141.0, )"
@@ -6332,6 +6328,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[77.0.3865.4000, )"
           },
           "SpecFlow": {
             "target": "Package",
@@ -6344,6 +6344,10 @@
           "SpecFlow.Tools.MsBuild.Generation": {
             "target": "Package",
             "version": "[3.0.225, )"
+          },
+          "gherkin": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [
@@ -6353,17 +6357,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Selenium.Locators 2.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Selenium.Locators",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

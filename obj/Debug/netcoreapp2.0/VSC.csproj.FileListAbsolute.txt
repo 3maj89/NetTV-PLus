@@ -28,3 +28,4 @@ D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfoInputs.cach
 D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
 D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.dll
 D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.pdb
+D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.csprojResolveAssemblyReference.cache

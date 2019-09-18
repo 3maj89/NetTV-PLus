@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "1d4bb3374a18bdd60a79a51af2f84d9410af8c1d"
+    "signature": "7a8711ee3242e9e384f7576de938684b052b099d"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,12 +11,12 @@
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.15.1",
-          "Selenium.Locators": "2.0.1",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
           "SpecFlow": "3.0.225",
           "SpecFlow.NUnit": "3.0.225",
-          "SpecFlow.Tools.MsBuild.Generation": "3.0.225"
+          "SpecFlow.Tools.MsBuild.Generation": "3.0.225",
+          "Gherkin": "6.0.0"
         },
         "runtime": {
           "VSC.dll": {}
@@ -376,15 +376,6 @@
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Targets": "1.1.0"
-        }
-      },
-      "Selenium.Locators/2.0.1": {
-        "dependencies": {
-          "Selenium.Support": "3.141.0",
-          "Selenium.WebDriver": "3.141.0"
-        },
-        "runtime": {
-          "lib/Selenium.Locators.dll": {}
         }
       },
       "Selenium.Support/3.141.0": {
@@ -1219,13 +1210,6 @@
       "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
-    },
-    "Selenium.Locators/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-P0R7WgkbLWmW5Ylx8+zSzFwuUhRNTffW+gaeEbYJwcyGjwAcXSceu3E93AqUjZquh1LKJHF/YVGd1RcNp1/d4A==",
-      "path": "selenium.locators/2.0.1",
-      "hashPath": "selenium.locators.2.0.1.nupkg.sha512"
     },
     "Selenium.Support/3.141.0": {
       "type": "package",
