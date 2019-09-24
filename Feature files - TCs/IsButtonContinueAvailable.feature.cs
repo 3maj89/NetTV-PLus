@@ -18,8 +18,8 @@ namespace VSC.FeatureFiles_TCs
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("title")]
-    public partial class TitleFeature
+    [NUnit.Framework.DescriptionAttribute("User can continue to the last checkout step.")]
+    public partial class UserCanContinueToTheLastCheckoutStep_Feature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,9 @@ namespace VSC.FeatureFiles_TCs
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "title", " In order to achievement\r\n As a type of user\r\n I want goal\r\n So that reason", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "User can continue to the last checkout step.", "\tIn order to proceed to Personal Data checkout step\r\n\tAs a new user\r\n\tI need to s" +
+                    "elect a Promotion or a Promotion and a Subscription\r\n\tSo button Continue becomes" +
+                    " active.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,19 +72,37 @@ namespace VSC.FeatureFiles_TCs
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("title")]
-        public virtual void Title()
+        [NUnit.Framework.DescriptionAttribute("BOX za 1 EUR - No Subscription - Button is inactive")]
+        public virtual void BOXZa1EUR_NoSubscription_ButtonIsInactive()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("title", null, ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX za 1 EUR - No Subscription - Button is inactive", null, ((string[])(null)));
 #line 7
  this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 8
-  testRunner.Given("precondition", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+  testRunner.Given("that I selected Box option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
-   testRunner.When("action", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+   testRunner.When("I select \"BOX za 1 EUR\" Promotion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
-   testRunner.Then("testable outcome", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("button Continue is inactive.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("3 meseca gratis - 3 months Subscription - Button is active")]
+        public virtual void _3MesecaGratis_3MonthsSubscription_ButtonIsActive()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("3 meseca gratis - 3 months Subscription - Button is active", null, ((string[])(null)));
+#line 13
+ this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 14
+testRunner.Given("that I select No Box option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 15
+testRunner.When("I select \"3 meseca gratis\" Promotion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 16
+testRunner.Then("button Continue is active", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

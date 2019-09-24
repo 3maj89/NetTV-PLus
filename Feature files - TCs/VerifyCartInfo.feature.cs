@@ -24,7 +24,7 @@ namespace VSC.FeatureFiles_TCs
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "VerifyCartElements.feature"
+#line 1 "VerifyCartInfo.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
@@ -89,6 +89,180 @@ namespace VSC.FeatureFiles_TCs
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX za 1 EUR - Subscription 3 months")]
+        public virtual void BOXZa1EUR_Subscription3Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX za 1 EUR - Subscription 3 months", null, ((string[])(null)));
+#line 14
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 15
+  testRunner.Given("that I select Box option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 16
+        testRunner.When("I select Promotion \"BOX za 1 EUR\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 17
+        testRunner.And("I select Subscription \"3 meseca\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 18
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX za 1 EUR - Subscription 6 months")]
+        public virtual void BOXZa1EUR_Subscription6Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX za 1 EUR - Subscription 6 months", null, ((string[])(null)));
+#line 21
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 22
+        testRunner.When("I select Promotion \"BOX za 1 EUR\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 23
+        testRunner.And("I select Subscription \"6 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 24
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX za 1 EUR - Subscription 12 months")]
+        public virtual void BOXZa1EUR_Subscription12Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX za 1 EUR - Subscription 12 months", null, ((string[])(null)));
+#line 27
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 28
+        testRunner.When("I select Promotion \"BOX za 1 EUR\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 29
+        testRunner.And("I select Subscription \"12 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 30
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("50% popusta na box - Predefined Subscription")]
+        public virtual void _50PopustaNaBox_PredefinedSubscription()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("50% popusta na box - Predefined Subscription", null, ((string[])(null)));
+#line 33
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 34
+        testRunner.When("I select Promotion \"50% popusta na box\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 35
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX bez akcijske cene - No Subscription")]
+        public virtual void BOXBezAkcijskeCene_NoSubscription()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX bez akcijske cene - No Subscription", null, ((string[])(null)));
+#line 38
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 39
+        testRunner.When("I select Promotion \"BOX bez akcijske cene\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 40
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX bez akcijske cene - Subscription 3 months")]
+        public virtual void BOXBezAkcijskeCene_Subscription3Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX bez akcijske cene - Subscription 3 months", null, ((string[])(null)));
+#line 43
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 44
+        testRunner.When("I select Promotion \"BOX bez akcijske cene\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 45
+        testRunner.And("I select Subscription \"3 meseca\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 46
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX bez akcijske cene - Subscription 6 months")]
+        public virtual void BOXBezAkcijskeCene_Subscription6Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX bez akcijske cene - Subscription 6 months", null, ((string[])(null)));
+#line 49
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 50
+        testRunner.When("I select Promotion \"BOX bez akcijske cene\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 51
+        testRunner.And("I select Subscription \"6 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 52
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("BOX bez akcijske cene - Subscription 12 months")]
+        public virtual void BOXBezAkcijskeCene_Subscription12Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BOX bez akcijske cene - Subscription 12 months", null, ((string[])(null)));
+#line 55
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 56
+        testRunner.When("I select Promotion \"BOX bez akcijske cene\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 57
+        testRunner.And("I select Subscription \"12 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 58
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\", \"device price\", \"device price discount\", \"device activa" +
+                    "tion fee\", \"device transportation fee\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("3 meseca gratis - No Subscription")]
+        public virtual void _3MesecaGratis_NoSubscription()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("3 meseca gratis - No Subscription", null, ((string[])(null)));
+#line 60
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 61
+        testRunner.When("I select \"3 meseca gratis\" Promotion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 62
+        testRunner.Then("in Cart I see \"contract lenght\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("3 meseca gratis - Subscription 3 months")]
         public virtual void _3MesecaGratis_Subscription3Months()
         {
@@ -103,6 +277,135 @@ namespace VSC.FeatureFiles_TCs
 #line 67
         testRunner.And("I select Subscription \"3 meseca\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 68
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("3 meseca gratis - Subscription 6 months")]
+        public virtual void _3MesecaGratis_Subscription6Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("3 meseca gratis - Subscription 6 months", null, ((string[])(null)));
+#line 72
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 73
+        testRunner.When("I select Promotion \"3 meseca gratis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 74
+        testRunner.And("I select Subscription \"6 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 75
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("3 meseca gratis - Subscription 12 months")]
+        public virtual void _3MesecaGratis_Subscription12Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("3 meseca gratis - Subscription 12 months", null, ((string[])(null)));
+#line 78
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 79
+        testRunner.When("I select Promotion \"3 meseca gratis\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 80
+        testRunner.And("I select Subscription \"12 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 81
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Plati 10 gledaj 12 meseci - Predefined Subscription")]
+        public virtual void Plati10Gledaj12Meseci_PredefinedSubscription()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Plati 10 gledaj 12 meseci - Predefined Subscription", null, ((string[])(null)));
+#line 84
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 85
+        testRunner.When("I select Promotion \"Plati 10 gledaj 12 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 86
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Izaberi period trajanja pretplate - No Subscription")]
+        public virtual void IzaberiPeriodTrajanjaPretplate_NoSubscription()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Izaberi period trajanja pretplate - No Subscription", null, ((string[])(null)));
+#line 89
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 90
+        testRunner.When("I select Promotion \"Izaberi period trajanja pretplate\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 91
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Izaberi period trajanja pretplate - Subscription 3 months")]
+        public virtual void IzaberiPeriodTrajanjaPretplate_Subscription3Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Izaberi period trajanja pretplate - Subscription 3 months", null, ((string[])(null)));
+#line 94
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 95
+        testRunner.When("I select Promotion \"Izaberi period trajanja pretplate\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 96
+        testRunner.And("I select Subscription \"3 meseca\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 97
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Izaberi period trajanja pretplate - Subscription 6 months")]
+        public virtual void IzaberiPeriodTrajanjaPretplate_Subscription6Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Izaberi period trajanja pretplate - Subscription 6 months", null, ((string[])(null)));
+#line 99
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 100
+        testRunner.When("I select Promotion \"Izaberi period trajanja pretplate\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 101
+        testRunner.And("I select Subscription \"6 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 102
+        testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
+                    "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Izaberi period trajanja pretplate - Subscription 12 months")]
+        public virtual void IzaberiPeriodTrajanjaPretplate_Subscription12Months()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Izaberi period trajanja pretplate - Subscription 12 months", null, ((string[])(null)));
+#line 104
+    this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 105
+        testRunner.When("I select Promotion \"Izaberi period trajanja pretplate\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 106
+        testRunner.And("I select Subscription \"12 meseci\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 107
         testRunner.Then("in Cart I see \"contract lenght\", \"subscription lenght\", \"subscription amount\", \"t" +
                     "otal amount\", \"savings\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

@@ -13,6 +13,10 @@ c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcorea
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.dll
 c:\Users\nevena.cukucan\Desktop\AUTOMATIZACIJA\novintv-paidco\obj\Debug\netcoreapp2.0\VSC.pdb
+D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.csprojResolveAssemblyReference.cache
+D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.csproj.CoreCompileInputs.cache
+D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfoInputs.cache
+D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\nunit.engine.dll
@@ -22,10 +26,3 @@ D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\VSC.deps.json
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\VSC.runtimeconfig.json
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\VSC.runtimeconfig.dev.json
 D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\VSC.dll
-D:\casovi_automatizacije\VSC\bin\Debug\netcoreapp2.0\VSC.pdb
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.csproj.CoreCompileInputs.cache
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfoInputs.cache
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.AssemblyInfo.cs
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.dll
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.pdb
-D:\casovi_automatizacije\VSC\obj\Debug\netcoreapp2.0\VSC.csprojResolveAssemblyReference.cache

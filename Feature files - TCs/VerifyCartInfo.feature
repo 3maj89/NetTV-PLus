@@ -60,15 +60,15 @@ Feature: User can see Promotion details in cart.
     Scenario: 3 meseca gratis - No Subscription
         When I select "3 meseca gratis" Promotion
         Then in Cart I see "contract lenght".
-10
+#10
     Scenario: 3 meseca gratis - Subscription 3 months
 		Given that I select No Box option
         When I select Promotion "3 meseca gratis"
         And I select Subscription "3 meseca"
         Then in Cart I see "contract lenght", "subscription lenght", "subscription amount", "total amount", "savings"
-    ovi parametri bi mogli da budu smesteni u klasu PromotionWithoutDeviceCartDetails
+    #ovi parametri bi mogli da budu smesteni u klasu PromotionWithoutDeviceCartDetails
 
-11
+#11
     Scenario: 3 meseca gratis - Subscription 6 months
         When I select Promotion "3 meseca gratis"
         And I select Subscription "6 meseci"
